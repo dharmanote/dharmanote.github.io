@@ -29,12 +29,16 @@
 /* 네비게이션 폰트 사이즈 */
 .md-nav {
     font-size: .8rem !important;
-}   
+}  
+/* 각주 폰트 사이즈 */
+.md-typeset .footnote {
+    font-size: 0.8rem !important;
+}
 /* 각주 툴팁 */
 .footnote-tooltip {
     display: none;
     position: absolute;
-    background: #36464e;
+    background: #5e7a87;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 8px 12px;
