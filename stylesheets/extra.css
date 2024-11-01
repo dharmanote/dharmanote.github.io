@@ -38,7 +38,8 @@
 .footnote-tooltip {
     display: none;
     position: absolute;
-    background: #5e7a87;
+    background: #cccccc;
+    color: #4d4d4d;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 8px 12px;
@@ -51,4 +52,20 @@
 
 .footnote-tooltip p {
     margin: 0;
+}
+/* 문장 내부 코드 백그라운드 색상 */
+.md-typeset p>code {
+    background-color: #cccccc;
+    color: #333333;
+}
+/* Admonitions(call-outs) 아이콘 위치 조정 */
+.md-typeset .question>summary:before, .md-typeset .info>summary:before, .md-typeset .tip>summary:before, .md-typeset .warning>summary:before, .md-typeset .danger>summary:before, md-typeset .note>summary:before, md-typeset .quote>summary:before{
+    margin-top: 4px;
+}
+.md-typeset .note>.admonition-title:before, .md-typeset .quote>.admonition-title:before, .md-typeset .tip>.admonition-title:before, .md-typeset .warning>.admonition-title:before, .md-typeset .danger>.admonition-title:before, .md-typeset .info>.admonition-title:before{
+    margin-top: 4px;
+}
+/* 문장 내부(이탤릭) 강조 색상 */
+p>em{
+    color: #8585e0
 }
