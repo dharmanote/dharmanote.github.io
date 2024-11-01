@@ -21,8 +21,10 @@
     font-size: 18px;
     line-height: 2 !important;
 }
+/* 제목 폰트 사이즈 */
 .md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4, .md-typeset h5, .md-typeset h6 {
     font-weight: 500;
+    color: #5e8bde;
 }
 /* 본문 폰트 사이즈 */
 .md-typeset, .md-typeset .admonition, .md-typeset code, .md-typeset details {
