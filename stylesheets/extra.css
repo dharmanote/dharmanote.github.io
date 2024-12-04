@@ -14,7 +14,7 @@
 }
 
 @font-face {
-    font-family: 'noto-sans-kr';
+    font-family: 'Noto Sans KR';
     src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap') format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -22,26 +22,37 @@
     line-height: 2 !important;
 }
 /* 제목 폰트 사이즈 */
-.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4, .md-typeset h5, .md-typeset h6 {
-    font-weight: 500;
-    color: #5e8bde;
+.md-typeset h1 {
+    font-weight: 600;
+    letter-spacing: -.015em;
+    color: rgb(15 23 42) !important;
+}
+.md-typeset h2 {
+    font-weight: 600;
+    letter-spacing: -.015em;
+    color: rgb(15 23 42) !important;
+}
+.md-typeset h3, .md-typeset h4, .md-typeset h5, .md-typeset h6 {
+    font-weight: 600;
+    letter-spacing: -.015em;
+    color: rgb(15 23 42) !important;
 }
 /* 본문 폰트 사이즈 */
 .md-typeset, .md-typeset .admonition, .md-typeset code, .md-typeset details {
-    font-size: 0.9rem !important;
-    line-height: 1.9 !important;
+    /* font-size: 0.9rem !important;
+    line-height: 1.9 !important; */
 }
 /* 네비게이션 폰트 사이즈 */
 .md-nav {
-    font-size: .8rem !important;
+    /* font-size: .8rem !important; */
 }  
 /* 각주 폰트 사이즈 */
 .md-typeset .footnote {
-    font-size: 0.8rem !important;
+    /* font-size: 0.8rem !important; */
 }
 /* 각주 툴팁 */
 .footnote-tooltip {
-    display: none;
+    /* display: none;
     position: absolute;
     background: #cccccc;
     color: #4d4d4d;
@@ -52,25 +63,40 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 1000;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.5; */
 }
 
 .footnote-tooltip p {
-    margin: 0;
+    /* margin: 0; */
 }
 /* 문장 내부 코드 백그라운드 색상 */
 .md-typeset p>code {
-    background-color: #cccccc;
-    color: #333333;
+    /* background-color: #cccccc;
+    color: #333333; */
 }
 /* Admonitions(call-outs) 아이콘 위치 조정 */
 .md-typeset .question>summary:before, .md-typeset .info>summary:before, .md-typeset .tip>summary:before, .md-typeset .warning>summary:before, .md-typeset .danger>summary:before, md-typeset .note>summary:before, md-typeset .quote>summary:before{
-    margin-top: 4px;
+    /* margin-top: 4px; */
 }
 .md-typeset .note>.admonition-title:before, .md-typeset .quote>.admonition-title:before, .md-typeset .tip>.admonition-title:before, .md-typeset .warning>.admonition-title:before, .md-typeset .danger>.admonition-title:before, .md-typeset .info>.admonition-title:before{
-    margin-top: 4px;
+    /* margin-top: 4px; */
 }
 /* 문장 내부(이탤릭) 강조 색상 */
 p>em{
-    color: #8585e0
+    color: teal;
+}
+
+.md-typeset code {
+    background-color: hsl(212deg 100% calc(calc(50% /50) * 39)/.05);
+    border-radius: 10px;
+}
+.md-search__form {
+    background-color: hsl(212deg 100% calc(calc(50% /50) * 39)/.05) !important;;
+    border-radius: 10px !important;
+}
+.md-header {
+    padding: 5px;
+}
+.md-header__title {
+    margin-left: 0 !important;
 }
