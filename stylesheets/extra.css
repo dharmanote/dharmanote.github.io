@@ -82,13 +82,16 @@
     /* margin-top: 4px; */
 }
 /* 문장 내부(이탤릭) 강조 색상 */
-p>em{
+em{
     color: teal;
 }
 
 .md-typeset code {
     background-color: hsl(212deg 100% calc(calc(50% /50) * 39)/.05);
     border-radius: 10px;
+}
+.md-typeset p>code {
+    background-color: #f2f4f4;
 }
 .md-search__form {
     background-color: hsl(212deg 100% calc(calc(50% /50) * 39)/.05) !important;;
