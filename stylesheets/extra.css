@@ -37,55 +37,10 @@
     letter-spacing: -.015em;
     color: rgb(15 23 42) !important;
 }
-/* 본문 폰트 사이즈 */
-.md-typeset, .md-typeset .admonition, .md-typeset code, .md-typeset details {
-    /* font-size: 0.9rem !important;
-    line-height: 1.9 !important; */
-}
-/* 네비게이션 폰트 사이즈 */
-.md-nav {
-    /* font-size: .8rem !important; */
-}  
-/* 각주 폰트 사이즈 */
-.md-typeset .footnote {
-    /* font-size: 0.8rem !important; */
-}
-/* 각주 툴팁 */
-.footnote-tooltip {
-    /* display: none;
-    position: absolute;
-    background: #cccccc;
-    color: #4d4d4d;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 8px 12px;
-    max-width: 300px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    z-index: 1000;
-    font-size: 15px;
-    line-height: 1.5; */
-}
-
-.footnote-tooltip p {
-    /* margin: 0; */
-}
-/* 문장 내부 코드 백그라운드 색상 */
-.md-typeset p>code {
-    /* background-color: #cccccc;
-    color: #333333; */
-}
-/* Admonitions(call-outs) 아이콘 위치 조정 */
-.md-typeset .question>summary:before, .md-typeset .info>summary:before, .md-typeset .tip>summary:before, .md-typeset .warning>summary:before, .md-typeset .danger>summary:before, md-typeset .note>summary:before, md-typeset .quote>summary:before{
-    /* margin-top: 4px; */
-}
-.md-typeset .note>.admonition-title:before, .md-typeset .quote>.admonition-title:before, .md-typeset .tip>.admonition-title:before, .md-typeset .warning>.admonition-title:before, .md-typeset .danger>.admonition-title:before, .md-typeset .info>.admonition-title:before{
-    /* margin-top: 4px; */
-}
 /* 문장 내부(이탤릭) 강조 색상 */
 em{
     color: teal;
 }
-
 .md-typeset code {
     background-color: hsl(212deg 100% calc(calc(50% /50) * 39)/.05);
     border-radius: 10px;
@@ -102,4 +57,8 @@ em{
 }
 .md-header__title {
     margin-left: 0 !important;
+}
+.md-typeset details.abstract {
+background-color: #e9f7ef !important;
+border: 0 !important;
 }
