@@ -62,3 +62,20 @@ em{
 background-color: #e9f7ef !important;
 border: 0 !important;
 }
+.md-footer {
+    background-color: #f2f4f4 !important;
+    color: #000;
+}
+.md-footer-meta {
+    background-color: #eaecee !important;
+    color: #000;
+}
+.md-copyright {
+    color: #000 !important;
+}
+.md-copyright__highlight {
+    color: #000 !important;
+}
+.md-footer-meta.md-typeset a {
+    color: #000 !important;
+}
