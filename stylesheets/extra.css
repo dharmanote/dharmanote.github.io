@@ -59,9 +59,24 @@ em{
     margin-left: 0 !important;
 }
 .md-typeset details.abstract {
-background-color: #e9f7ef !important;
+/* background-color: #e9f7ef !important; */
 border: 0 !important;
 }
+.md-typeset details.info {
+    border: 0 !important;
+}
+.md-typeset .info>summary {
+    background-color: #e9f7ef !important; 
+} 
+.md-typeset details.quote {
+    border: 0 !important;
+}
+.md-typeset .quote>summary:before {
+display: none !important;
+}
+.md-typeset .quote>summary {
+    padding-left: 1rem !important;
+}    
 .md-footer {
     background-color: #f2f4f4 !important;
     color: #000;
