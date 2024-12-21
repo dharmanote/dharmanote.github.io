@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
+
+.body-chat {
+  padding-bottom: 0;
+}
+
+.chat-header,
+.chat-header a {
+  /* background-color: #a1c0d6; */
+  color: black;
+}
+
+.chat-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chat {
+  /* background-color: #a1c0d6; */
+  /* padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 40%;
+  height: 150%; */
+}
+
+.chat .date-divider {
+  text-align: center;
+  /* font-size: 12px; */
+  margin-bottom: 15px;
+  max-width: 100%;
+  /* margin-left: 10%; */
+  line-height: 1.5em;
+  /* background-color: #83acc9; */
+  border: #b4b4b4 1px solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #000000;
+}
+
+.chat__message {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat__message-from-me {
+  justify-content: flex-end;
+}
+
+.chat__message-time {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.chat__message-from-me .chat__message-body-comment {
+  background-color: #ffffff;
+  margin-left: 5px;
+  line-height: 1.5em;
+  border: #b4b4b4 1px solid;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  line-height: 1.6em;
+  font-family: sans-serif;
+  color: #34495e;
+  word-spacing: .05rem;
+  font-size: 15px;
+}
+.chat__message-from-me .chat__message-body-origin {
+  background-color: #f2f2f2;
+  margin-left: 5px;
+  line-height: 1.5em;
+  border: #f2f2f2 2px solid;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  line-height: 1.6em;
+  font-family: sans-serif;
+  color: #34495e;
+  word-spacing: .05rem;
+  font-size: 15px;
+}
+
+.chat__message-from-me img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 70px;
+  align-self: flex-start;
+  display: none;
+}
+
+.chat__message-body {
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #ffe934;
+  margin-right: 5px;
+  line-height: 1.6em;
+  font-family: sans-serif;
+  color: #34495e;
+  word-spacing: .05rem;
+  font-size: 15px;
+}
+
+.chat__message-to-me .chat__message-body-comment  {
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #ffe934;
+  margin-right: 5px;
+  line-height: 1.6em;
+  font-family: sans-serif;
+  color: #34495e;
+  word-spacing: .05rem;
+  font-size: 15px;
+}
+.chat__message-to-me .chat__message-body-origin  {
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border: #ffe934 2px solid;
+  margin-right: 5px;
+  line-height: 1.6em;
+  font-family: sans-serif;
+  color: #34495e;
+  word-spacing: .05rem;
+  font-size: 15px;
+}
+
+.chat__message-to-me img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-self: flex-start;
+  display: none;
+}
+
+.chat__message .chat__message-username {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: -8px;
+}
+
+.chat__message .chat__message-myname {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: -8px;
+}
+
+.chat__message-center {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
+
+.type-message {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 45px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.type-message .fa-plus {
+  color: #b4b4b4;
+}
+
+.type-message__input {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.type-message__input input {
+  width: 100%;
+  padding: 10px;
+}
+
+.type-message__input .fa-smile-o {
+  position: absolute;
+  right: 40px;
+  color: #b4b4b4;
+}
+
+.type-message__input .record-message {
+  color: #523737;
+  background-color: #ffe934;
+  padding: 10px;
+  cursor: pointer;
+}
+details.abstract {
+  /* border-radius: 15px;
+  padding: 10px 10px; */
+  line-height: 1.6em;
+  /* font-weight: 200; */
+  outline: none;
+  font-size: 15px !important;
+  color: rgba(0, 0, 0, 0.5);
+  word-spacing: .05rem;
+  margin-left: 5px;
+  margin-right: 7px;
+}
+details.abstract summary::-webkit-details-marker {
+  /* display:none; */
+  padding: 1rem;
+}
+details.abstract summary {
+  /* outline: none; */
+  padding: 1rem;
+}
+
+.footnote {
+  /* color: yellow;
+  font-size: 20px; */
+}
+.message_time_group{
+  margin-bottom: 45px;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
