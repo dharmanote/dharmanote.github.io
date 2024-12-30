@@ -94,3 +94,42 @@ display: none !important;
 .md-footer-meta.md-typeset a {
     color: #000 !important;
 }
+.md-typeset mark {
+    font-size: .85em;
+    border-radius: 2px;
+    padding: 0 .2941176471em;
+    background-color:#fff0b3;
+}
+.md-typeset mark.critic {
+    font-size: .8rem;
+    border-radius: 2px;
+    padding: 0 .3em;
+    /* background-color: var(--md-typeset-mark-color); */
+    background-color:#fff0b3;
+}
+ins {
+    font-size: .85em;
+    border-radius: 10px;
+    padding: 0 .2941176471em;
+    background-color: #e9f7ef;
+    text-decoration: none;
+}
+.md-typeset ins.critic {
+    background-color: #f2f4f4;
+    text-decoration: none;
+}
+.md-typeset del.critic {
+    /* background-color: var(--md-typeset-del-color); */
+    background-color: #cceeff;
+    text-decoration: none;
+    font-size: .85em;
+    border-radius: 2px;
+    padding: 0 .2941176471em;
+}
+del {
+    background-color: var(--md-typeset-del-color);
+    text-decoration: none;
+    font-size: .85em;
+    border-radius: 2px;
+    padding: 0 .2941176471em;
+}
